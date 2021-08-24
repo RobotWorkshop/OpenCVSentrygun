@@ -1,11 +1,11 @@
 # OpenCVSentrygun
 A Nerf sentry gun with machine vision based on Open CV.
 
-A Servo controls the pitch and pan. Machine vision achieved with Raspberry Pi 3b and Pi camera module. The firing mechanism consists of two dc spinner motors for propulsion and a servo "firing pin".
+Two Servos control the pitch and pan. Machine vision achieved with Raspberry Pi 3b and Pi camera module. The firing mechanism consists of two dc spinner motors for propulsion and a servo "firing pin" and an Adafruit PCA9685 16-Channel Servo Driver.
 
 # BOM
 
-Pan Stepper: 1x M94SP-2K
+Pan Stepper: 1x MG995
 
 Pitch Servo: 1x MG995
 
@@ -13,7 +13,9 @@ Firing servo: 1x MG90S
 
 DC motors: 2x RF-300CA
 
-Computer: Raspi 3b
+Control board: 1x Raspi 3b
+
+Servo driver: 1x PCA9685 
 
 Camera: Raspi Cam module 5mp
 
